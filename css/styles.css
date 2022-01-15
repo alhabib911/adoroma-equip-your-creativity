@@ -1,0 +1,196 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+/* Header Area Start */
+.container{
+    background-color: #F9F9F9;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo-area h2{
+    color: #2874A6;
+    font-family: 'Lemon', cursive;
+}
+nav .logo-area small{
+    font-family: 'Merriweather', serif;
+}
+nav .navigation-area ul{
+    display: flex;
+}
+nav .navigation-area ul li{
+    list-style: none;
+}
+nav .navigation-area ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #566573;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav .navigation-area ul li a:hover{
+    background-color: ;
+}
+nav .navigation-area i{
+    margin-left: 25px;
+}
+/* Header Area Stop */
+   
+/* Main Area Start */
+.top-slide{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.top-slide .left-area h1{
+    color: #2980B9;
+    font-size: 50px;
+    font-family: 'The Nautigal', cursive;
+}
+.top-slide button{
+    padding: 12px 45px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #2980B9;
+    border: none;
+    color: whitesmoke;
+}
+.top-slide i{
+    padding-left: 25px;
+    font-size: 20px;
+}
+.top-slide img{
+    width: 420px;
+}
+
+.sponser-logo-area{
+    width: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main hr{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #2980B9;
+}
+.sponser-logo-area img{
+    margin: 15px;
+}
+.hot-deal{
+    width: 80%;
+    margin: auto;
+}
+#hot-text{
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+    color: #2980B9;
+    font-size: 60px;
+}
+.hot-deal h3{
+    margin: 0;
+    padding: 10px;
+}
+.grid-container{    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    background-color: #fdfcfc;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    border-radius: 10px;
+    padding: 15px;
+}
+.grid-item img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+.grid-item .star{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    color: orange;
+}
+.hot-deal button{
+    float: right;
+    display: inline-block;
+    padding: 12px 45px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #2980B9;
+    color: whitesmoke;
+}
+.hot-deal button i{
+    padding-left: 25px;
+    font-size: 20px;
+}
+.subscription-area {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+.text-area {
+    margin-top: 60px;
+}
+#signup-text{
+    text-align: center;
+    color: #2980B9;
+}
+#signup-text-2{
+    text-align: center;
+}
+.input-area{
+    display: flex;
+    background-color: #2980B9;
+    width: 35%;
+    margin: auto;
+    border-radius: 16px;
+    border: 1px solid #cccccc;
+    color: whitesmoke;
+}
+.input-area input{
+    border: 1px solid #F9F9F9;
+    border-radius: 15px;
+    padding: 0 120px 0 20px;
+}
+.input-area h3{
+    padding-left: 15px;
+}
+/* Footer Area Start */
+footer{
+    height: 120px;
+    background-color: #575757;
+    text-align: center;
+    padding-bottom: 15px;
+}
+footer h3{
+    padding-top: 25px;
+    color: whitesmoke;
+}
+footer small{
+    color: whitesmoke;
+    text-align: center;
+    display: block;
+}
+footer i{
+    color: whitesmoke;
+    padding: 10px 0 0 10px;
+    font-size: 22px;
+
+}
